@@ -1,0 +1,3 @@
+*{
+    box-sizing: border-box; /* importante para garantir que todos irão se comportar em caixa */
+}
