@@ -1,3 +1,14 @@
 *{
     box-sizing: border-box; /* importante para garantir que todos irão se comportar em caixa */
+
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    padding: 1rem;
+}
+
+body{
+    background-color: black;
+    color: white;
 }
