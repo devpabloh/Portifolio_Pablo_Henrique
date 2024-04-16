@@ -6,9 +6,13 @@
 
 .header {
     padding: 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: .5rem;
 }
 
 body{
-    background-color: black;
-    color: white;
+    background: linear-gradient( 45deg,#3F72F2, #3FE3F2, #3faaf2);
+    color: black;
+
 }
