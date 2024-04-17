@@ -36,9 +36,29 @@
     display: inline-block;
     width: 1rem;
     height: 1rem;
-    background-image: url('../icons/telefone.svg');
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: .3rem;
 }
+
+.informations .job::before{
+    background-image: url('../icons/pessoa.svg')
+}
+
+.informations .location::before{
+    background-image: url('../icons/local.svg')
+}
+
+.informations .whatsapp::before{
+    background-image: url('../icons/whatsapp.svg')
+}
+
+.informations .phone::before{
+    background-image: url('../icons/telefone.svg')
+}
+
+.informations .email::before{
+    background-image: url('../icons/email.svg')
+}
+
 
