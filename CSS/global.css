@@ -19,4 +19,10 @@ body{
 .main::before{
     content: '';
     background-image: url('../icons/backgroundTop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
 }
