@@ -16,13 +16,16 @@ body{
     border-radius: .5rem;
 }
 
-.main::before{
+.header::before{
     content: '';
     background-image: url('../icons/backgroundTop.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
-    width: 100px;
-    height: 100px;
-    z-index: 1;
+    width: 1000px;
+    height: 1000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
