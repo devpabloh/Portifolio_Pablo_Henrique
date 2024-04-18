@@ -21,10 +21,11 @@ body{
     background-image: url('../icons/backgroundTop.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 2560px;
-    height: 1964px;
+    display: inline-block;
     position: fixed;
     top: 0;
     left: 0;
+    width: 2560px;
+    height: 1964px;
     z-index: -1;
 }
