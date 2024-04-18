@@ -61,4 +61,22 @@
     background-image: url('../icons/email.svg')
 }
 
+@media only screen and (min-width: 768px) {
+    .main{
+        display: grid;
+    }
+
+    .main .photo{
+        grid-area: photo;
+    }
+
+    .main .title{
+        grid-area: title;
+    }
+
+    .main .informations{
+        grid-area: informations;
+    }
+    
+}
 
