@@ -18,7 +18,7 @@ body{
 
 .header::before{
     content: '';
-    background-image: url('../icons/backgroundTop.svg');
+    background-image: url('../imagens/background-gradient-lights.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
