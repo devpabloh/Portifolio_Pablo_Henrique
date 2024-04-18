@@ -4,6 +4,16 @@
     align-items: center;
 }
 
+.main::after{
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+}
+
 .photo {
     width: 12.5rem;
     height: 12.5rem;
@@ -64,19 +74,35 @@
 @media only screen and (min-width: 768px) {
     .main{
         display: grid;
+       grid-template-areas: 
+       "photo title"
+       "photo informations"
+       ;
     }
 
     .main .photo{
         grid-area: photo;
+        margin: 0 auto;
     }
 
     .main .title{
         grid-area: title;
+        text-align: start;
+        max-width: 220px;
     }
 
     .main .informations{
         grid-area: informations;
     }
     
+}
+
+@media only screen and (min-width: 1024px){
+
+    .header{
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
 }
 
