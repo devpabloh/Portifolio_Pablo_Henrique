@@ -11,7 +11,7 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(../icons/menu.svg);
+    background-image: url('../icons/menu.svg');
     z-index: -1;
 }
 
