@@ -21,9 +21,8 @@ body{
     background-image: url('../icons/backgroundTop.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    display: inline-block;
-    width: 1000px;
-    height: 1000px;
+    width: 2560px;
+    height: 1964px;
     position: fixed;
     top: 0;
     left: 0;
