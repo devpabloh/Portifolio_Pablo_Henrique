@@ -20,6 +20,7 @@
     background-color: transparent;
     color: black;
     border: none;
+    
 }
 .acordeon.open:hover,
 .acordeon .trigger:hover{
@@ -38,7 +39,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url("../icons/arrow.svg");
-
+    transition: 0.25s;
 }
 
 .acordeon.open .trigger::after{
@@ -46,9 +47,14 @@
 }
 
 .acordeon .content{
-    display: none;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
 }
 
 .acordeon.open .content{
     display: inline-block;
+    height: 100%;
+    opacity: 1;
 }
