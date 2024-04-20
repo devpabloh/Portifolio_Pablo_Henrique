@@ -10,10 +10,19 @@
 }
 
 .languages li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 1rem;
+    font-weight: 700;
 }
 
-.languages li::after{
+.languages li::before{
+    content: "";
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .1rem;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../icons/check.svg');
