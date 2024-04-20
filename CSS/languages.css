@@ -12,3 +12,9 @@
 .languages li{
     padding: 1rem;
 }
+
+.languages li::after{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../icons/check.svg');
+}
