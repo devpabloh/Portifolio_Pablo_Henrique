@@ -26,6 +26,7 @@
 .acordeon .trigger h2{
     margin: 0;
     font-size: 1rem;
+    align-items: start  ;
 }
 .acordeon.open:hover,
 .acordeon .trigger:hover{

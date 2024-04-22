@@ -6,20 +6,25 @@
     list-style: none;
 
 }
+.experience li{
+    margin-bottom: 1rem;
+}
+
 
 .experience li .period{
     display: flex;
     flex-direction: row;
+    align-items: center;
 
 }
 
 .experience li .period::before{
     content: "";
     display: inline-block;
-    background-image: url('');
+    background-image: url('../icons/calendar.svg');
     background-repeat: no-repeat;
     background-size: contain;
     width: 1rem;
     height: 1rem;
-
+    margin-right: .5rem;
 }
