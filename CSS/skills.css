@@ -7,10 +7,19 @@
 .skills .tools ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
+.skills .tools ul li img{
+   width: 50px;
+   margin: 0 .5rem;
+}
+
+
+
+
