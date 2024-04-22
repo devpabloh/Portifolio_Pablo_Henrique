@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/RenanJPaula/js-developer-portfolio/main/data/profile.json
+
+arquivo js
