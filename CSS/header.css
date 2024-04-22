@@ -55,6 +55,7 @@
     margin-right: .3rem;
 }
 
+
 .informations .job::before{
     background-image: url('../icons/pessoa.svg')
 }
