@@ -22,6 +22,11 @@
     border: none;
     
 }
+
+.acordeon .trigger h2{
+    margin: 0;
+    font-size: 1rem;
+}
 .acordeon.open:hover,
 .acordeon .trigger:hover{
     background-color: #55569e;
