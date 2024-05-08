@@ -30,7 +30,7 @@
 }
 .acordeon.open:hover,
 .acordeon .trigger:hover{
-    background-color:  #6748cb;
+    background-color:  white   ;
     border-color: black;
     border-radius: 1rem;
     cursor: pointer;

@@ -5,7 +5,6 @@
 }
 
 body{
-    background-color: #6748cb;
     color: black;
 
 }
@@ -28,7 +27,25 @@ a:hover{
 
 .header::before{
     content: '';
-    background-image: radial-gradient(circle at 1.38% 9.2%, #ff68e0 0, #ff61f0 10%, #ff5dfa 20%, #ff5aff 30%, #ff57fc 40%, #f253f2 50%, #c14ee4 60%, #934bd7 70%, #6748cb 80%, #3346c1 90%, #0045b8 100%);
+    
+    background-image: linear-gradient(
+        120deg,
+        hsl(209deg 100% 50%) 1%,
+        hsl(209deg 50% 50%) 50%,
+        hsl(0deg 0% 50%) 99%
+      );
+
+   /* 
+   Cor amarela com cinza
+   background-image: linear-gradient(
+  120deg,
+  hsl(60deg 100% 50%) 1%,
+  hsl(60deg 50% 50%) 50%,
+  hsl(0deg 0% 50%) 99%
+); */
+
+
+
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
