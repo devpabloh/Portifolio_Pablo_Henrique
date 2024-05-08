@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #fff200af;
+    background-color: #6748cb;
     color: black;
 
 }
@@ -17,20 +17,19 @@ a{
 
 a:hover{
     text-decoration: underline;
-    color: blue;
+    color: #6748cb;
 }
 
 .main {
     padding: 1rem;
     margin: 1rem;
-    border: 2px solid black
-    ;
+    border: 2px solid black;
     border-radius: .5rem;
 }
 
 .header::before{
     content: '';
-    background-image: linear-gradient(black);
+    background-image: radial-gradient(circle at 1.38% 9.2%, #ff68e0 0, #ff61f0 10%, #ff5dfa 20%, #ff5aff 30%, #ff57fc 40%, #f253f2 50%, #c14ee4 60%, #934bd7 70%, #6748cb 80%, #3346c1 90%, #0045b8 100%);
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
