@@ -22,6 +22,7 @@
     width: 12.5rem;
     height: 12.5rem;
     border-radius: 50%;
+    border: 2px groove black;
 }
 
 .title{
