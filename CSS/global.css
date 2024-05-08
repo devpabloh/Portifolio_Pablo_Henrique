@@ -28,23 +28,8 @@ a:hover{
 .header::before{
     content: '';
     
-    background-image: linear-gradient(
-        120deg,
-        hsl(209deg 100% 50%) 1%,
-        hsl(209deg 50% 50%) 50%,
-        hsl(0deg 0% 50%) 99%
-      );
 
-   /* 
-   Cor amarela com cinza
-   background-image: linear-gradient(
-  120deg,
-  hsl(60deg 100% 50%) 1%,
-  hsl(60deg 50% 50%) 50%,
-  hsl(0deg 0% 50%) 99%
-); */
-
-
+    background-image: linear-gradient(120deg, hsl(209deg 100% 67.28%) 1%, hsl(209deg 56.66% 41.59%) 50%, hsl(0deg 0% 50%) 99%); 
 
     background-repeat: no-repeat;
     background-size: contain;
